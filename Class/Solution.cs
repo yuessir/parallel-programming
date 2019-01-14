@@ -2,7 +2,7 @@
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
 
-namespace InterviewExam_Thread.Class
+namespace CancelTasks.Class
 {
     class Solution
     {
@@ -10,11 +10,11 @@ namespace InterviewExam_Thread.Class
          return   $"Thread {whichOne} is canceled!!";
         }
         /// <summary>
-        /// 請實作LooperThreading類別，不可修改Looper類別。
-        /// Solution.Execute()要實作的邏輯是:
-        /// 啟動多個執行緒，讓每個執行緒執行LooperThreading的Execute方法。
-        /// 任何執行緒出錯後，在Console紀錄出錯Looper的Name，並取消其他執行中的執行緒。
-        /// 任何執行緒被取消執行後，在Console紀錄被取消Looper的Name。
+        /// 
+        ///This example shows how to terminate a Task and its children in response to a cancellation request.
+        ///It also shows that when a user delegate terminates by throwing a TaskCanceledException, 
+        ///the calling thread can optionally use the Wait method or WaitAll method to wait for the tasks to finish. 
+        ///In this case, you must use a try/catch block to handle the exceptions on the calling thread.
         /// </summary>
         public static void Execute()
         {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace InterviewExam_Thread.Class
+namespace CancelTasks.Class
 {
      class LooperThreading : Looper
     {

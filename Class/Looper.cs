@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace InterviewExam_Thread.Class
+namespace CancelTasks.Class
 {
      abstract class Looper
     {

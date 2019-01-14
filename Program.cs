@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Solution = InterviewExam_Thread.Class.Solution;
+using Solution = CancelTasks.Class.Solution;
 
-namespace InterviewExam_Thread
+namespace CancelTasks
 {
     class Program
     {
